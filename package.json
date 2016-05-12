@@ -5,13 +5,27 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
+  },  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scsijs-mongoooooooose/.ps-sc-hero"
   },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],  
+  "author": "scsijs-mongoooooooose",
+  "contributors": [
+    "scsijs-mongoooooooose <scsijs-mongoooooooose@russian.com> (http://scsijs-mongoooooooose.com)"
+  ],
+  "license": "MIT",
   "dependencies": {
     "body-parser": "~1.5.0",
-	"express": "3.3.8",
+    "express": "3.3.8",
     "express-session": "~1.0.2",
+    "mongoose": "~3.8.8",   
     "connect-mongo": "^0.4.1",
-    "mongoose": "~3.8.8",
     "ejs": "*"
   },
   "devDependencies": {
